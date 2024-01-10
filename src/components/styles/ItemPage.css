@@ -1,0 +1,53 @@
+input[type=number] {
+    width: 50px;
+    padding: 5px 4px;
+    font-size: 16px;
+    margin-left: 25px;
+    border: 1px solid rgba(179, 179, 179, 0.568);
+    background-color: rgb(252, 252, 252);
+    box-shadow: 6px 6px 10px 0 rgba(71, 71, 71, 0.109),
+        -6px -6px 10px 0 rgba(255, 255, 255, 0.739);
+}
+
+h1 {
+    text-align: center;
+    word-wrap: normal;
+    width: 80%;
+}
+p{ 
+    margin: 5px;
+}
+.formpage {
+    display: flex;
+    flex-direction: row;
+}
+
+.onhand {
+    display: flex;
+    flex-direction: column;
+}
+
+.incoming {
+    display: flex;
+    flex-direction: column;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    font-size: calc(8px + 2vmin);;
+    width: 80px;
+    height: 30px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(59, 61, 65);
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgba(77, 77, 77, 0.329);
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 0 rgba(71, 71, 71, 0.109),
+        -6px -6px 10px 0 rgba(255, 255, 255, 0.739);
+}

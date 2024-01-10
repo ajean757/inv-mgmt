@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    text-align: 0px;
+}
+
+.sheet {
+    max-width: 100%
+}
+
+/* Inventory */
+h1 {
+    text-align: center;
+    left: 50%;
+    font-size: 40px;
+    color: rgb(57, 75, 113);
+}
+
+h2 {
+    
+    padding-right: 7%;
+    color: rgb(57, 75, 113);
+}
+
+.labels {
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    
+}
+
